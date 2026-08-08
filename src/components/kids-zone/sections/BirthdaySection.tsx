@@ -5,7 +5,7 @@ import type { ContentItem } from "@/components/admin/adminData";
 const birthdayChips = [
   {
     label: "TV Feature",
-    icon: "/icons/taskbar/play.png",
+    icon: "/icons/taskBar/play.png",
     alt: "TV feature icon",
   },
   {

@@ -14,35 +14,35 @@ const tabs = [
     key: "home",
     label: "Home",
     href: "/",
-    icon: "/icons/taskbar/home.webp",
+    icon: "/icons/taskBar/home.webp",
     slotSize: "w-[132px] desktop:w-[144px]",
   },
   {
     key: "watch",
     label: "Watch",
     href: "/watch",
-    icon: "/icons/taskbar/watch.png",
+    icon: "/icons/taskBar/watch.png",
     slotSize: "w-[132px] desktop:w-[144px]",
   },
   {
     key: "kids-zone",
     label: "Kids Zone",
     href: "/kids-zone",
-    icon: "/icons/taskbar/kidsZone.png",
+    icon: "/icons/taskBar/kidsZone.png",
     slotSize: "w-[152px] desktop:w-[168px]",
   },
   {
     key: "market",
     label: "Market",
     href: "/market",
-    icon: "/icons/taskbar/market.png",
+    icon: "/icons/taskBar/market.png",
     slotSize: "w-[132px] desktop:w-[144px]",
   },
   {
     key: "info",
     label: "Info",
     href: "/info",
-    icon: "/icons/taskbar/info.png",
+    icon: "/icons/taskBar/info.png",
     slotSize: "w-[118px] desktop:w-[124px]",
   },
 ];
@@ -52,21 +52,21 @@ const actions = [
     key: "search",
     label: "Search",
     href: "/search",
-    icon: "/icons/taskbar/search.png",
+    icon: "/icons/taskBar/search.png",
     type: "icon",
   },
   {
     key: "live",
     label: "Live",
     href: "/watch",
-    icon: "/icons/taskbar/live.png",
+    icon: "/icons/taskBar/live.png",
     type: "live",
   },
   {
     key: "profile",
     label: "Profile",
     href: "/profile",
-    icon: "/icons/taskbar/profile.png",
+    icon: "/icons/taskBar/profile.png",
     type: "icon",
   },
 ];
@@ -87,22 +87,22 @@ const mobileTabs = [
   {
     label: "Home",
     href: "/",
-    icon: "/icons/taskbar/home.webp",
+    icon: "/icons/taskBar/home.webp",
   },
   {
     label: "Watch",
     href: "/watch",
-    icon: "/icons/taskbar/watch.png",
+    icon: "/icons/taskBar/watch.png",
   },
   {
     label: "Kids Zone",
     href: "/kids-zone",
-    icon: "/icons/taskbar/kidsZone.png",
+    icon: "/icons/taskBar/kidsZone.png",
   },
   {
     label: "Market",
     href: "/market",
-    icon: "/icons/taskbar/market.png",
+    icon: "/icons/taskBar/market.png",
   },
 ];
 
@@ -110,7 +110,7 @@ const mobileMenuItems = [
   {
     label: "Info",
     href: "/info",
-    icon: "/icons/taskbar/info.png",
+    icon: "/icons/taskBar/info.png",
   },
   ...actions,
 ];
@@ -150,7 +150,7 @@ function TaskIcon({
 function Logo() {
   return (
     <Image
-      src={sitePath("/icons/taskbar/logo.png")}
+      src={sitePath("/icons/taskBar/logo.png")}
       alt="A Plus Kids"
       width={148}
       height={74}
@@ -463,7 +463,7 @@ export default function TaskBar() {
     <header className="fixed left-0 right-0 top-0 z-50 bg-white/78 px-5 py-4 backdrop-blur-xl laptop:hidden">
       <Link href="/" aria-label="A Plus Kids home" className="inline-flex">
         <Image
-          src={sitePath("/icons/taskbar/logo.png")}
+          src={sitePath("/icons/taskBar/logo.png")}
           alt="A Plus Kids"
           width={92}
           height={46}

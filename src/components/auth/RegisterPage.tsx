@@ -408,7 +408,7 @@ export default function RegisterPage({ embedded = false, onLogin }: { embedded?:
 
       <section className="relative mx-auto w-full max-w-[720px] rounded-[26px] bg-white/96 p-5 [font-family:Arial,Helvetica,sans-serif] shadow-[0_28px_80px_rgba(14,72,135,0.22)] backdrop-blur-sm tablet:rounded-[36px] tablet:p-8 laptop:max-w-[800px] laptop:p-10">
         <a href={sitePath("/")} aria-label="Go to A Plus Kids home" className="mx-auto block w-fit">
-          <Image src={sitePath("/icons/taskbar/logo.png")} alt="A Plus Kids" width={600} height={600} priority className="h-28 w-64 object-cover object-center tablet:h-32 tablet:w-72" />
+          <Image src={sitePath("/icons/taskBar/logo.png")} alt="A Plus Kids" width={600} height={600} priority className="h-28 w-64 object-cover object-center tablet:h-32 tablet:w-72" />
         </a>
 
         <div className="text-center">

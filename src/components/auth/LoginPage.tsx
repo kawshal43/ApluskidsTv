@@ -144,7 +144,7 @@ export default function LoginPage({ embedded = false, onCreateAccount, onLoginSu
         {view === "login" && (
           <>
             <a href={sitePath("/")} aria-label="Go to A Plus Kids home" className="mx-auto block w-fit">
-              <Image src={sitePath("/icons/taskbar/logo.png")} alt="A Plus Kids" width={600} height={600} priority className="h-28 w-64 object-cover object-center tablet:h-32 tablet:w-72" />
+              <Image src={sitePath("/icons/taskBar/logo.png")} alt="A Plus Kids" width={600} height={600} priority className="h-28 w-64 object-cover object-center tablet:h-32 tablet:w-72" />
             </a>
             <div className="text-center">
               <h1 className="text-2xl font-bold tracking-[-0.02em] text-slate-950 tablet:text-3xl">Welcome back!</h1>

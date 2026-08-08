@@ -62,7 +62,7 @@ const scheduleDays = [
 type ScheduleDay = (typeof scheduleDays)[number];
 
 const categories = [
-  { name: "All", icon: "/icons/taskbar/play.png" },
+  { name: "All", icon: "/icons/taskBar/play.png" },
   { name: "Stories", icon: "/images/watch/categoris/education (1).png" },
   { name: "Education", icon: "/images/watch/categoris/education (2).png" },
   { name: "Songs & Rhymes", icon: "/images/watch/categoris/education (3).png" },
@@ -489,7 +489,7 @@ export default function Watch() {
   const normalizedSearch = searchTerm.trim().toLowerCase();
   const effectiveCategories = managedCategories.length
     ? [
-        { name: "All" as CategoryName, icon: "/icons/taskbar/play.png" },
+        { name: "All" as CategoryName, icon: "/icons/taskBar/play.png" },
         ...managedCategories
           .filter((category) => category.active && category.name !== "All")
           .map((category) => ({
@@ -667,7 +667,7 @@ export default function Watch() {
             >
               <span className="ml-3 mr-2 grid h-10 w-10 place-items-center rounded-full tablet:ml-4">
                 <Image
-                  src={sitePath("/icons/taskbar/search.png")}
+                  src={sitePath("/icons/taskBar/search.png")}
                   alt=""
                   width={32}
                   height={32}
@@ -687,7 +687,7 @@ export default function Watch() {
                 className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-[#F04B23] shadow-[0_8px_20px_rgba(240,75,35,0.28)] transition-transform hover:scale-105 tablet:h-12 tablet:w-12"
               >
                 <Image
-                  src={sitePath("/icons/taskbar/search.png")}
+                  src={sitePath("/icons/taskBar/search.png")}
                   alt=""
                   width={28}
                   height={28}
